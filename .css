@@ -3,9 +3,6 @@
     border: 5px;
     padding: 5px;
     box-sizing: 5px;
-}
-
-.float-dispaly {
     float: inline-start;
     display: flex;
     justify-content: center;
@@ -15,7 +12,7 @@
 }
 
 
-.font-background {
+h1 {
     font-weight: 500;
     color: white;
     font-size: large;
@@ -23,11 +20,7 @@
     background-image: URL('some-image.jpg');
 }
 
-.baby-box {
-
-}
-
-.box > .baby-box {
+.box > .baby-div {
     position: relative;
     position: absolute;
     position: fixed; 
